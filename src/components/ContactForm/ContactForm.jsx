@@ -22,7 +22,7 @@ const initialValues = {
   number: "",
 };
 
-const ContactForm = ({ onAdd }) => {
+const ContactForm = () => {
   const dispatch = useDispatch();
   const handleSubmit = (values, actions) => {
     actions.resetForm();
